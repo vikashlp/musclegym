@@ -1,0 +1,314 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.nav-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(73, 73, 73);
+}
+
+.nav-logo{
+  
+  /* border: 2px solid red; */
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+  
+    }
+  
+    .logo{
+      filter: invert(100%);
+      display: block;
+      width: 40%;
+      margin: 0px 15px;
+      margin: 10px auto;
+      
+    }
+  
+    .logo:hover{
+      cursor: pointer;
+    }
+  
+    .tagname {
+      color:white;
+      text-align: center;
+      cursor: pointer;
+      font-size: 15px;
+      line-height: 6px;
+    }
+  
+    .tagname a{
+      color:white;
+      text-decoration: none;
+    }
+    .tagname a:hover{
+  
+      color:red;
+    }
+  
+
+
+.nav-ul{
+  display: flex;
+ 
+}
+
+
+
+.nav-ul li{
+ 
+list-style: none;
+}
+
+ .nav-ul li a {
+  text-decoration: none;
+  margin: 0px 40px;
+  color:white; 
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+ }
+
+ .nav-ul li a:hover{
+  font-size: 16px;
+  color:red;
+ }
+
+ 
+
+html{
+  height:100%;
+}
+
+ body{
+  overflow-x: hidden;
+  background-color: #161618;
+  height: 100%;
+  
+}
+
+ .register{
+  /* border: 2px solid red; */
+  display: block;
+  width: 500px;
+  margin:150px auto;
+  text-align: center;
+  background-color: rgb(73, 73, 73);
+  border-radius: 8px;
+
+ }
+
+ .register h2{
+  line-height: 50px;
+  color:white;
+ }
+
+
+
+ .inputbox{
+  display: block;
+  width: 280px;
+  margin:10px 110px;
+  padding:5px;
+  border: 1px solid rgb(11 27 23);
+  text-align: center;
+  border-radius: 12px;
+  
+ }
+
+
+ .appbutton{
+  width: 100px;
+  margin:10px;
+  padding:5px;
+  cursor: pointer;
+ }
+
+
+
+
+
+.bg{
+position: relative;
+color:white;
+}
+
+.bg img {
+  width:100%;
+  height:100vh;
+}
+ .bg h1{
+  /* border: 2px solid red; */
+  background-color: #161618;
+  position: absolute;
+  top: 250px;
+  left:487px;
+  
+
+ }
+
+
+.abtmain{
+  min-height:100vh;
+  }
+
+
+.abtbg{
+  background: url('./images/about.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height:100vh;
+  
+}
+
+
+
+.abt{
+  background-color: rgb(73, 73, 73);
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 300px;
+  width: 800px;
+  height: 300px;
+}
+
+
+
+.abt1{
+  text-align: center;
+}
+
+
+
+.abt1 p {
+  margin: 30px 0px;
+}
+
+.cntmain{
+  min-height:100vh;
+}
+
+.cntbg{
+  background: url('./images/contact.jpg') no-repeat center center/cover;
+  position: absolute;
+  top:50px;
+  width: 100%;
+  height:100vh;
+}
+
+
+.cnt{
+  background-color: rgb(73, 73, 73);
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 150px 300px;
+  width: 800px;
+  height: 300px;
+}
+
+.cnt1{
+  text-align: center;
+
+}
+
+
+
+.cnt1 p {
+  margin: 30px 0px;
+}
+
+
+ 
+
+ .footer{
+  /* display: flex; */
+  position: relative;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1px;
+  height: 100px;
+ } 
+ 
+ footer {
+  
+  padding: 3px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+
+.foot{
+display: flex;
+width: 100%;
+
+}
+.foot-left{
+
+
+/* background-color: black; */
+/* border: 2px solid red; */
+position: absolute;
+left:10px;
+top:35px;
+
+}
+
+.foot-mid{
+ /* border: 2px solid red; */
+
+display: block;
+width: 200px;
+margin: 20px auto;
+}
+
+.foot-mid a{
+  text-decoration: none;
+  color: white;
+}
+
+.foot-mid a:hover{
+  color: gray;
+}
+
+
+.foot-right{
+  /* border: 2px solid red; */
+  position: absolute;
+  right:10px;
+  top:20px;
+}
+
+.foot-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-right a:hover{
+  color:gray;
+}
+
+ 
+
+   
+ 

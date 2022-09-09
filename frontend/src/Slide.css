@@ -1,0 +1,74 @@
+.main{
+    min-height:100vh;
+    width: 100vw;
+   
+   }
+  
+   .card{
+   margin: 100px 0px;
+   position: relative;
+   
+   }
+   
+   .card-top{
+    padding:1px;
+   }
+
+   
+  
+  .card-top img{
+    height: 50vh;
+    width: 100%;
+ 
+    border: 2px solid black;
+   
+  }
+  
+  .card-top h3{
+    text-align: center;
+  }
+
+
+  .slick-dots li.slick-active button:before {
+    color: white;
+   }
+
+  
+
+   .slick-dots{
+     background-color: rgb(73, 73, 73);
+
+   }
+
+   .slidetitle{
+    color:white;
+   }
+
+
+   /* .slick-prev:before, .slick-next:before {
+    position: relative;
+    color: #000;
+    margin: 10px;
+  } */
+
+   /* .slick-slider {
+    margin:10px;
+    color: #000;
+  } */
+  /* .slick-slide {
+    padding:5px;
+    margin-right:5px;
+    margin-left:5px;
+    width: 100%;
+  } */
+
+  /* .slick-prev {
+    left: 100px;
+    background: red; 
+    z-index: 1;
+  } */
+
+  /* .slick-next {
+    right: 100px;
+     background: red; 
+  } */

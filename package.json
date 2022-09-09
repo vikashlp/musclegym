@@ -1,0 +1,31 @@
+{
+  "name": "major-project",
+  "homepage": "https://github.com/vikashlp/musclegym",
+  "version": "1.0.0",
+  "main": "backend/index.js",
+  "scripts": {
+    "predeploy" : "npm run build", 
+    "deploy": "gh-pages -d build", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikashlp/musclegym.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikashlp/musclegym/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "gh-pages": "^4.0.0",
+    "mongoose": "^6.5.5",
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
+}
